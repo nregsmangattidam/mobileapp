@@ -1,0 +1,25 @@
+ul li {
+    background: #e0eca9;
+    color: rgb(245, 29, 94);
+    margin: 5px;
+  }
+  #news {
+    position: absolute;
+    background-color: rgb(141, 238, 84);
+    height: 150px;
+    width: 550px;
+    text-shadow: #0a0a0a;
+    text-align: center;
+    animation-name: newsd;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes newsd {
+    from {
+        background-color: rgb(100, 240, 123);
+    }
+    to {
+        background-color: rgb(151, 75, 202);
+    }
+  }
